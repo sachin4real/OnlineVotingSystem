@@ -1,4 +1,5 @@
 #Online Voting System
+
 This is a web-based Online Voting System built using PHP, JavaScript, CSS, and HTML. The system allows users to securely cast votes in a digital election. Key features include:
 
 User authentication: Ensures only registered users can vote.
