@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300&display=swap");
+
+.main {
+  background-color: rgb(136, 134, 134);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  height: 700px;
+  display: flex;
+  margin: 12px auto;
+  box-shadow: 12px 25px 33px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-first {
+  background-color:rgb(136, 134, 134);
+  width: 40vw;
+  height: 400px;
+  margin: auto auto;
+  display: flex;
+  align-items: center;
+  background-image: url(../src/images/Background/istockphoto-1403848173-612x612.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-second {
+  background-color: rgb(136, 134, 134);
+  height: 400px;
+  width: 40vw;
+}
+.inputText {
+  width: 62%;
+  padding: 16px 16px;
+  border-radius: 12px;
+  border: none;
+}
+.textarea {
+  width: 62%;
+  padding: 16px 8px;
+  border-radius: 12px;
+  border: none;
+}
+.btn {
+  color: #f7f7fe;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 48px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #4776e6 0%,
+    #8e54e9 51%,
+    #4776e6 100%
+  );
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 12px 25px 33px 5px rgba(0, 0, 0, 0.1);
+}
+.contactText {
+  color: #100f10e0;
+  font-size: 32px;
+  margin: 12px 0px;
+}
+.label {
+  font-size: 24px;
+  color: #100f10b8;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* First row */
+
+.main-first-h3 {
+  font-size: 24px;
+  color: rgb(17, 17, 109);
+  font-weight: bolder;
+}
+.main-first-p {
+  font-size: 18px;
+  color:rgb(17, 17, 109);
+  font-weight: 500;
+  font-weight: bolder;
+}
+.main-first-element {
+  margin: 48px 54px;
+}
+.inputText:hover {
+  /* change the direction of the change here */
+  cursor: auto;
+  text-decoration: none;
+  box-shadow: 12px 25px 33px 5px rgba(0, 0, 0, 0.1);
+}

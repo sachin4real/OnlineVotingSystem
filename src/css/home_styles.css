@@ -1,0 +1,424 @@
+body{
+    background-image: url(../src/images/Background/pexels-tbee-82256.jpg);
+    background-color: rgb(239, 220, 195);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header
+{
+    height: 120px;
+    background: whitesmoke;
+}
+.logo-part
+{
+    width: 120px;
+    height: 120px;
+    background:whitesmoke;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.top-banner
+{
+    width: 600px;
+    height: 120px;
+    background: transparent;
+    margin-left: 310px;
+    position: absolute;
+}
+.profile-section
+{
+    width: 50px;
+    height: 50px;
+    background: grey;
+    margin-left: 950px;
+    position: absolute;
+    margin-top: 25px;
+}
+.log-in-btn-space
+{
+    width: 50px;
+    height: 50px;
+    background:transparent;
+    margin-left: 1085px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.sign-up-btn-space
+{
+    width: 50px;
+    height: 50px;
+    background:transparent;
+    margin-left: 1225px;
+    position: absolute;
+    margin-top: 25px;
+}
+.button {
+    background-color: rgb(41, 40, 40);
+    border: none;
+    color: white;
+    padding: 14px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--navigation bar (start)--*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color:goldenrod;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+}
+/* The dropdown container = include in the booking icon */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button = booking */
+.dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white; /* nav bar color = white */
+  background-color: inherit;
+  font-family: 'Times New Roman', Times, serif, cursive; /* Important for vertical align                                             on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  width: 100%;
+}
+
+/*  yellow background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: goldenrod; /*Grey*/
+  color:#000000;
+  font-weight: bold;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #241E1E; /*Grey*/
+  font-family:'Times New Roman', Times, serif, cursive;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: FEFEFE;
+  padding: 14px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* White background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #241E1E;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*--navigation bar (end)--*/
+
+/*--Banner section (start)--*/
+.middle-banner
+{
+    width: 1200px;
+    height: 450px;
+    background: transparent;
+    margin-left: 50px;
+    margin-top: 35px;
+    overflow: hidden;
+    position:relative;
+}
+.logo-box
+{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+.logo-img
+{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+}
+.bottom-banner
+{
+    width: 800px;
+    height: 200px;
+    background: transparent;
+    margin-left: 280px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+/*--main banners slid show (start)--*/
+#slider
+{
+    overflow: hidden;
+}
+#slider figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: 25s slider infinite;
+    overflow: hidden;
+}
+#slider figure img
+{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+.slid{
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+@keyframes slider{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+/*--main banners slid show (end)--*/
+/*--Banner section (end)--*/
+.feedback
+{
+    width: 50px;
+    height: 50px;
+    background: grey;
+    margin-left: 1280px;
+    position: relative;
+    margin-top: 25px;
+}
+/*--footer section (start)--*/
+.footer-mainfream
+{
+    width: 1200px;
+    height: 200px;
+    margin-left: 72px;
+    margin-top: 35px;
+    background: rgb(56, 55, 55);
+    border-radius: 25px;
+}
+
+.sub-container-1
+{
+    width: 230px;
+    height: 180px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background:transparent;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub-container-2
+{
+    width: 670px;
+    height: 180px;
+    margin-left: 250px;
+    margin-top: 10px;
+    background:transparent;
+    position: absolute;
+    text-align: center;
+}
+.sub-container-3
+{
+    width: 260px;
+    height: 180px;
+    margin-left: 930px;
+    margin-top: 10px;
+    background:transparent;
+    position: absolute;
+}
+/*--social media Icon bar (start)--*/
+.fa 
+{
+    padding: 25px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 20px;
+    border-radius: 25px;
+}
+  
+.fa:hover 
+{
+      opacity: 0.7;
+}
+  
+.fa-facebook 
+{
+    background: #000000;
+    color: white;
+}
+  
+.fa-youtube 
+{
+    background: #000000;
+    color: white;
+}
+  
+.fa-google 
+{
+    background: #000000;
+    color: white;
+}
+.fa-instagram 
+{
+    background: #000000;
+    color: white;
+} 
+/*--social media icon bar (end)--*/
+.text-1
+{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: larger;
+}
+.text-2
+{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: larger;
+}
+.text-3
+{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: medium;
+}
+.detail-txt
+{
+    margin-top: 10px;
+    color: white;
+}
+.detail-txt-2
+{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.text-1{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.button-2 {
+    background-color: rgb(31, 92, 3);
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyright{
+    color:black;
+	font-size:12px;
+}
+.white
+{
+	color:black;
+}
+/*--footer section (end)--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
